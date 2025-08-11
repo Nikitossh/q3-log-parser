@@ -1,0 +1,20 @@
+# Ignore build outputs
+build/
+.gradle/
+
+# Ignore local environments
+.env
+*.iml
+.idea/
+.vscode/
+
+# Ignore VCS
+.git/
+.gitignore
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test reports
+test-results/

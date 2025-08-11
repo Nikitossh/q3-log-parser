@@ -1,0 +1,1166 @@
+  0:00 InitGame: \sv_hostname\Q3A CTF\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\dmflags\0\fraglimit\100\timelimit\15\g_gametype\0\sv_maxclients\16\bot_minplayers\0\capturelimit\8\g_maxGameClients\0\version\ioq3 1.36+u20220205.c0f2964~dfsg-1/Ubuntu linux-aarch64 Feb  7 2022\com_gamename\Quake3Arena\com_protocol\71\mapname\q3ctf4\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfoChanged: 0 n\DOCKER\t\0\model\ranger/red\hmodel\ranger/red\g_redteam\\g_blueteam\\c1\5\c2\5\hc\95\w\0\l\0\tt\0\tl\0
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfoChanged: 1 n\Nikitossh\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfoChanged: 2 n\Zani\t\0\model\tim/default\hmodel\tim/default\g_redteam\\g_blueteam\\c1\7\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfoChanged: 3 n\jayjay\t\0\model\biker/slammer\hmodel\biker/slammer\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfoChanged: 4 n\prostept\t\0\model\biker/stroggo\hmodel\biker/stroggo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\80\w\0\l\0\tt\0\tl\0
+  0:01 ClientUserinfoChanged: 3 n\jayjay\t\0\model\biker/slammer\hmodel\biker/slammer\g_redteam\\g_blueteam\\c1\4\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+  0:01 Item: 3 ammo_shells
+  0:01 Item: 3 weapon_shotgun
+  0:01 Item: 3 ammo_bullets
+  0:01 Item: 3 ammo_bullets
+  0:01 ClientBegin: 3
+  0:01 ClientUserinfoChanged: 1 n\Nikitossh\t\0\model\sarge\hmodel\sarge\g_redteam\\g_blueteam\\c1\2\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+  0:01 Item: 1 ammo_shells
+  0:01 Item: 1 weapon_shotgun
+  0:01 Item: 1 ammo_bullets
+  0:01 Item: 1 ammo_bullets
+  0:01 ClientBegin: 1
+  0:01 ClientUserinfoChanged: 2 n\Zani\t\0\model\tim/default\hmodel\tim/default\g_redteam\\g_blueteam\\c1\7\c2\5\hc\100\w\0\l\0\tt\0\tl\0
+  0:01 Item: 2 ammo_shells
+  0:01 Item: 2 weapon_shotgun
+  0:01 Item: 2 ammo_bullets
+  0:01 Item: 2 ammo_bullets
+  0:01 ClientBegin: 2
+  0:01 ClientUserinfoChanged: 4 n\prostept\t\0\model\biker/stroggo\hmodel\biker/stroggo\g_redteam\\g_blueteam\\c1\2\c2\5\hc\80\w\0\l\0\tt\0\tl\0
+  0:01 Item: 4 ammo_shells
+  0:01 Item: 4 weapon_shotgun
+  0:01 Item: 4 ammo_bullets
+  0:01 Item: 4 ammo_bullets
+  0:01 ClientBegin: 4
+  0:02 ClientUserinfoChanged: 0 n\DOCKER\t\0\model\ranger/red\hmodel\ranger/red\g_redteam\\g_blueteam\\c1\5\c2\5\hc\95\w\0\l\0\tt\0\tl\0
+  0:02 Item: 0 ammo_shells
+  0:02 Item: 0 weapon_shotgun
+  0:02 Item: 0 ammo_bullets
+  0:02 Item: 0 ammo_bullets
+  0:02 ClientBegin: 0
+  0:06 Item: 1 item_armor_combat
+  0:06 Item: 0 weapon_rocketlauncher
+  0:06 Kill: 1 3 1: Nikitossh killed jayjay by MOD_SHOTGUN
+  0:06 Item: 1 weapon_shotgun
+  0:08 Item: 4 weapon_rocketlauncher
+  0:08 Item: 4 item_armor_combat
+  0:09 Item: 1 item_health_large
+  0:12 Item: 3 ammo_shells
+  0:12 Item: 3 weapon_shotgun
+  0:12 Item: 3 ammo_bullets
+  0:12 Item: 3 ammo_bullets
+  0:12 Item: 4 weapon_rocketlauncher
+  0:14 Item: 2 item_armor_combat
+  0:14 Item: 2 weapon_rocketlauncher
+  0:16 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  0:16 Item: 4 weapon_rocketlauncher
+  0:16 Item: 3 item_armor_combat
+  0:17 Item: 0 ammo_shells
+  0:17 Item: 0 weapon_shotgun
+  0:17 Item: 0 ammo_bullets
+  0:17 Item: 0 ammo_bullets
+  0:18 Item: 2 weapon_railgun
+  0:19 Kill: 1 4 3: Nikitossh killed prostept by MOD_MACHINEGUN
+  0:20 Item: 2 weapon_railgun
+  0:21 Item: 4 ammo_shells
+  0:21 Item: 4 weapon_shotgun
+  0:21 Item: 4 ammo_bullets
+  0:21 Item: 4 ammo_bullets
+  0:22 Item: 2 weapon_railgun
+  0:23 Item: 0 weapon_rocketlauncher
+  0:24 Item: 2 weapon_railgun
+  0:26 Item: 2 weapon_railgun
+  0:27 Kill: 1 0 1: Nikitossh killed DOCKER by MOD_SHOTGUN
+  0:28 Item: 2 weapon_railgun
+  0:29 Item: 3 weapon_rocketlauncher
+  0:29 Item: 0 ammo_shells
+  0:29 Item: 0 weapon_shotgun
+  0:29 Item: 0 ammo_bullets
+  0:29 Item: 0 ammo_bullets
+  0:30 Item: 0 weapon_rocketlauncher
+  0:30 Item: 2 weapon_railgun
+  0:32 Item: 2 weapon_railgun
+  0:34 Item: 1 item_health_large
+  0:36 Item: 0 weapon_rocketlauncher
+  0:36 Kill: 2 1 10: Zani killed Nikitossh by MOD_RAILGUN
+  0:38 Item: 0 weapon_rocketlauncher
+  0:38 Item: 1 ammo_shells
+  0:38 Item: 1 weapon_shotgun
+  0:38 Item: 1 ammo_bullets
+  0:38 Item: 1 ammo_bullets
+  0:38 Item: 3 weapon_shotgun
+  0:39 Item: 2 weapon_railgun
+  0:40 Kill: 2 0 10: Zani killed DOCKER by MOD_RAILGUN
+  0:41 Item: 4 item_health_large
+  0:41 Item: 2 weapon_railgun
+  0:42 Item: 0 ammo_shells
+  0:42 Item: 0 weapon_shotgun
+  0:42 Item: 0 ammo_bullets
+  0:42 Item: 0 ammo_bullets
+  0:42 Item: 3 weapon_rocketlauncher
+  0:43 Item: 3 weapon_rocketlauncher
+  0:43 Item: 3 item_armor_combat
+  0:43 Item: 2 weapon_railgun
+  0:45 Item: 2 weapon_railgun
+  0:46 Kill: 1022 4 22: <world> killed prostept by MOD_TRIGGER_HURT
+  0:47 Item: 3 weapon_rocketlauncher
+  0:47 Item: 4 ammo_shells
+  0:47 Item: 4 weapon_shotgun
+  0:47 Item: 4 ammo_bullets
+  0:47 Item: 4 ammo_bullets
+  0:49 Item: 0 weapon_rocketlauncher
+  0:51 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  0:52 Item: 2 weapon_railgun
+  0:53 Item: 0 ammo_shells
+  0:53 Item: 0 weapon_shotgun
+  0:53 Item: 0 ammo_bullets
+  0:53 Item: 0 ammo_bullets
+  0:53 Kill: 2 3 10: Zani killed jayjay by MOD_RAILGUN
+  0:56 Item: 4 weapon_rocketlauncher
+  0:57 Item: 4 weapon_rocketlauncher
+  0:57 Item: 3 ammo_shells
+  0:57 Item: 3 weapon_shotgun
+  0:57 Item: 3 ammo_bullets
+  0:57 Item: 3 ammo_bullets
+  0:59 Kill: 1022 4 22: <world> killed prostept by MOD_TRIGGER_HURT
+  0:59 Item: 2 item_armor_combat
+  0:59 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+  1:00 Item: 0 weapon_rocketlauncher
+  1:01 Item: 1 ammo_shells
+  1:01 Item: 1 weapon_shotgun
+  1:01 Item: 1 ammo_bullets
+  1:01 Item: 1 ammo_bullets
+  1:02 Item: 4 ammo_shells
+  1:02 Item: 4 weapon_shotgun
+  1:02 Item: 4 ammo_bullets
+  1:02 Item: 4 ammo_bullets
+  1:02 Item: 3 item_armor_combat
+  1:02 Item: 3 weapon_rocketlauncher
+  1:06 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+  1:06 Item: 3 item_health_mega
+  1:08 Item: 1 ammo_shells
+  1:08 Item: 1 weapon_shotgun
+  1:08 Item: 1 ammo_bullets
+  1:08 Item: 1 ammo_bullets
+  1:09 Item: 0 weapon_rocketlauncher
+  1:09 Item: 3 weapon_railgun
+  1:10 Item: 1 item_armor_combat
+  1:13 Item: 0 weapon_railgun
+  1:14 ClientDisconnect: 4
+  1:15 Kill: 3 2 10: jayjay killed Zani by MOD_RAILGUN
+  1:16 Item: 0 weapon_railgun
+  1:16 Item: 3 weapon_railgun
+  1:17 Item: 2 ammo_shells
+  1:17 Item: 2 weapon_shotgun
+  1:17 Item: 2 ammo_bullets
+  1:17 Item: 2 ammo_bullets
+  1:19 Item: 1 weapon_rocketlauncher
+  1:19 Item: 1 item_armor_combat
+  1:21 Item: 1 weapon_rocketlauncher
+  1:22 Item: 0 weapon_railgun
+  1:23 Item: 2 weapon_rocketlauncher
+  1:25 Item: 1 weapon_rocketlauncher
+  1:26 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+  1:26 Item: 0 weapon_railgun
+  1:27 Kill: 1 0 6: Nikitossh killed DOCKER by MOD_ROCKET
+  1:28 Item: 2 weapon_railgun
+  1:29 Item: 2 weapon_railgun
+  1:29 Item: 1 weapon_rocketlauncher
+  1:29 Item: 0 ammo_shells
+  1:29 Item: 0 weapon_shotgun
+  1:29 Item: 0 ammo_bullets
+  1:29 Item: 0 ammo_bullets
+  1:32 Item: 1 weapon_rocketlauncher
+  1:33 Item: 3 ammo_shells
+  1:33 Item: 3 weapon_shotgun
+  1:33 Item: 3 ammo_bullets
+  1:33 Item: 3 ammo_bullets
+  1:34 Item: 3 item_armor_combat
+  1:34 Item: 3 weapon_rocketlauncher
+  1:34 Item: 1 weapon_rocketlauncher
+  1:36 Item: 0 weapon_rocketlauncher
+  1:40 Item: 1 weapon_rocketlauncher
+  1:40 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  1:42 Item: 1 weapon_rocketlauncher
+  1:43 Item: 2 ammo_shells
+  1:43 Item: 2 weapon_shotgun
+  1:43 Item: 2 ammo_bullets
+  1:43 Item: 2 ammo_bullets
+  1:44 Item: 2 weapon_rocketlauncher
+  1:45 Kill: 1 2 6: Nikitossh killed Zani by MOD_ROCKET
+  1:46 Item: 1 weapon_rocketlauncher
+  1:46 Item: 1 item_armor_combat
+  1:46 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  1:47 Item: 2 ammo_shells
+  1:47 Item: 2 weapon_shotgun
+  1:47 Item: 2 ammo_bullets
+  1:47 Item: 2 ammo_bullets
+  1:48 Item: 0 ammo_shells
+  1:48 Item: 0 weapon_shotgun
+  1:48 Item: 0 ammo_bullets
+  1:48 Item: 0 ammo_bullets
+  1:48 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+  1:49 Item: 1 weapon_rocketlauncher
+  1:53 Item: 2 weapon_rocketlauncher
+  1:54 Item: 2 weapon_rocketlauncher
+  1:54 Item: 0 weapon_rocketlauncher
+  1:56 Item: 2 item_health_mega
+  1:59 Item: 1 weapon_rocketlauncher
+  1:59 Item: 2 weapon_railgun
+  2:03 Item: 1 weapon_rocketlauncher
+  2:06 Item: 1 weapon_rocketlauncher
+  2:06 Item: 2 weapon_railgun
+  2:08 Item: 1 weapon_rocketlauncher
+  2:11 Item: 1 weapon_rocketlauncher
+  2:11 Item: 1 item_armor_combat
+  2:13 Item: 1 weapon_rocketlauncher
+  2:15 Item: 1 weapon_rocketlauncher
+  2:18 Item: 0 weapon_railgun
+  2:18 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+  2:20 Item: 0 weapon_railgun
+  2:20 Item: 1 ammo_shells
+  2:20 Item: 1 weapon_shotgun
+  2:20 Item: 1 ammo_bullets
+  2:20 Item: 1 ammo_bullets
+  2:21 Item: 2 weapon_railgun
+  2:22 Item: 0 weapon_railgun
+  2:23 Item: 1 item_armor_combat
+  2:24 Item: 0 weapon_railgun
+  2:24 Kill: 0 2 6: DOCKER killed Zani by MOD_ROCKET
+  2:26 Item: 0 weapon_railgun
+  2:26 Item: 2 ammo_shells
+  2:26 Item: 2 weapon_shotgun
+  2:26 Item: 2 ammo_bullets
+  2:26 Item: 2 ammo_bullets
+  2:28 Item: 0 weapon_railgun
+  2:29 Item: 1 weapon_rocketlauncher
+  2:29 Item: 3 ammo_shells
+  2:29 Item: 3 weapon_shotgun
+  2:29 Item: 3 ammo_bullets
+  2:29 Item: 3 ammo_bullets
+  2:32 Item: 2 item_armor_combat
+  2:33 Item: 2 weapon_rocketlauncher
+  2:35 Item: 2 weapon_rocketlauncher
+  2:35 Item: 1 item_armor_combat
+  2:40 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  2:40 Item: 3 weapon_rocketlauncher
+  2:42 Item: 2 ammo_shells
+  2:42 Item: 2 weapon_shotgun
+  2:42 Item: 2 ammo_bullets
+  2:42 Item: 2 ammo_bullets
+  2:43 Item: 1 item_health_large
+  2:43 Item: 3 item_health_mega
+  2:45 Item: 0 weapon_railgun
+  2:46 Item: 3 weapon_railgun
+  2:46 Item: 3 weapon_railgun
+  2:47 Item: 1 weapon_rocketlauncher
+  2:47 Item: 1 item_armor_combat
+  2:50 Item: 1 weapon_rocketlauncher
+  2:56 Item: 0 weapon_railgun
+  2:57 Item: 1 weapon_rocketlauncher
+  2:59 Kill: 3 2 10: jayjay killed Zani by MOD_RAILGUN
+  3:01 Item: 2 ammo_shells
+  3:01 Item: 2 weapon_shotgun
+  3:01 Item: 2 ammo_bullets
+  3:01 Item: 2 ammo_bullets
+  3:01 Item: 2 item_armor_combat
+  3:01 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+  3:02 Item: 3 weapon_railgun
+  3:03 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  3:03 Item: 1 ammo_shells
+  3:03 Item: 1 weapon_shotgun
+  3:03 Item: 1 ammo_bullets
+  3:03 Item: 1 ammo_bullets
+  3:04 Item: 0 ammo_shells
+  3:04 Item: 0 weapon_shotgun
+  3:04 Item: 0 ammo_bullets
+  3:04 Item: 0 ammo_bullets
+  3:05 Item: 3 weapon_railgun
+  3:06 Item: 1 item_health_large
+  3:09 Item: 3 weapon_railgun
+  3:11 Kill: 3 1 10: jayjay killed Nikitossh by MOD_RAILGUN
+  3:12 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  3:13 Item: 1 ammo_shells
+  3:13 Item: 1 weapon_shotgun
+  3:13 Item: 1 ammo_bullets
+  3:13 Item: 1 ammo_bullets
+  3:14 Item: 2 ammo_shells
+  3:14 Item: 2 weapon_shotgun
+  3:14 Item: 2 ammo_bullets
+  3:14 Item: 2 ammo_bullets
+  3:15 Item: 2 item_armor_combat
+  3:15 Item: 2 weapon_rocketlauncher
+  3:16 Item: 1 weapon_rocketlauncher
+  3:18 Item: 2 weapon_rocketlauncher
+  3:21 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  3:23 Item: 0 ammo_shells
+  3:23 Item: 0 weapon_shotgun
+  3:23 Item: 0 ammo_bullets
+  3:23 Item: 0 ammo_bullets
+  3:30 Item: 1 item_armor_combat
+  3:31 Item: 3 weapon_railgun
+  3:31 Item: 2 item_health_mega
+  3:33 Item: 3 weapon_railgun
+  3:33 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  3:35 Item: 2 ammo_shells
+  3:35 Item: 2 weapon_shotgun
+  3:35 Item: 2 ammo_bullets
+  3:35 Item: 2 ammo_bullets
+  3:36 Item: 2 weapon_rocketlauncher
+  3:36 Item: 2 item_armor_combat
+  3:36 Item: 1 item_health_large
+  3:37 Kill: 3 0 10: jayjay killed DOCKER by MOD_RAILGUN
+  3:38 Item: 2 weapon_rocketlauncher
+  3:39 Item: 0 ammo_shells
+  3:39 Item: 0 weapon_shotgun
+  3:39 Item: 0 ammo_bullets
+  3:39 Item: 0 ammo_bullets
+  3:40 Item: 0 weapon_rocketlauncher
+  3:40 Kill: 3 1 10: jayjay killed Nikitossh by MOD_RAILGUN
+  3:42 Item: 2 weapon_railgun
+  3:42 Item: 1 ammo_shells
+  3:42 Item: 1 weapon_shotgun
+  3:42 Item: 1 ammo_bullets
+  3:42 Item: 1 ammo_bullets
+  3:42 Item: 0 weapon_rocketlauncher
+  3:44 Item: 3 weapon_railgun
+  3:45 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  3:46 Kill: 3 2 10: jayjay killed Zani by MOD_RAILGUN
+  3:47 Item: 1 weapon_rocketlauncher
+  3:47 Item: 0 ammo_shells
+  3:47 Item: 0 weapon_shotgun
+  3:47 Item: 0 ammo_bullets
+  3:47 Item: 0 ammo_bullets
+  3:49 Item: 0 weapon_shotgun
+  3:50 Item: 2 ammo_shells
+  3:50 Item: 2 weapon_shotgun
+  3:50 Item: 2 ammo_bullets
+  3:50 Item: 2 ammo_bullets
+  3:50 Item: 1 weapon_railgun
+  3:50 Item: 3 item_health_large
+  3:51 Item: 2 weapon_rocketlauncher
+  3:52 Item: 3 weapon_rocketlauncher
+  3:53 Item: 1 weapon_railgun
+  3:54 Item: 0 weapon_rocketlauncher
+  3:55 Item: 2 weapon_railgun
+  3:55 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+  3:58 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+  3:58 Item: 2 weapon_railgun
+  4:00 Item: 1 ammo_shells
+  4:00 Item: 1 weapon_shotgun
+  4:00 Item: 1 ammo_bullets
+  4:00 Item: 1 ammo_bullets
+  4:01 Kill: 2 0 10: Zani killed DOCKER by MOD_RAILGUN
+  4:01 Item: 3 ammo_shells
+  4:01 Item: 3 weapon_shotgun
+  4:01 Item: 3 ammo_bullets
+  4:01 Item: 3 ammo_bullets
+  4:01 Item: 2 weapon_railgun
+  4:03 Item: 1 item_armor_combat
+  4:04 Item: 3 weapon_rocketlauncher
+  4:07 Item: 0 ammo_shells
+  4:07 Item: 0 weapon_shotgun
+  4:07 Item: 0 ammo_bullets
+  4:07 Item: 0 ammo_bullets
+  4:08 Kill: 1 3 1: Nikitossh killed jayjay by MOD_SHOTGUN
+  4:10 Item: 1 weapon_rocketlauncher
+  4:11 Item: 3 ammo_shells
+  4:11 Item: 3 weapon_shotgun
+  4:11 Item: 3 ammo_bullets
+  4:11 Item: 3 ammo_bullets
+  4:14 Item: 3 weapon_rocketlauncher
+  4:14 Item: 1 item_health_large
+  4:16 Kill: 1 3 6: Nikitossh killed jayjay by MOD_ROCKET
+  4:18 Kill: 0 1 3: DOCKER killed Nikitossh by MOD_MACHINEGUN
+  4:18 Item: 3 ammo_shells
+  4:18 Item: 3 weapon_shotgun
+  4:18 Item: 3 ammo_bullets
+  4:18 Item: 3 ammo_bullets
+  4:20 Item: 1 ammo_shells
+  4:20 Item: 1 weapon_shotgun
+  4:20 Item: 1 ammo_bullets
+  4:20 Item: 1 ammo_bullets
+  4:21 Item: 1 weapon_rocketlauncher
+  4:21 Item: 1 item_armor_combat
+  4:21 Item: 2 weapon_railgun
+  4:21 Item: 0 item_armor_combat
+  4:24 Item: 1 weapon_rocketlauncher
+  4:25 Item: 2 weapon_railgun
+  4:27 Item: 3 item_health_mega
+  4:29 Item: 1 weapon_rocketlauncher
+  4:31 Item: 3 weapon_railgun
+  4:31 Item: 2 weapon_railgun
+  4:31 Item: 0 item_health_large
+  4:33 Item: 2 weapon_railgun
+  4:35 Item: 0 weapon_rocketlauncher
+  4:35 Item: 2 weapon_railgun
+  4:37 Kill: 1 0 7: Nikitossh killed DOCKER by MOD_ROCKET_SPLASH
+  4:37 Kill: 3 2 10: jayjay killed Zani by MOD_RAILGUN
+  4:39 Item: 1 weapon_rocketlauncher
+  4:40 Item: 2 ammo_shells
+  4:40 Item: 2 weapon_shotgun
+  4:40 Item: 2 ammo_bullets
+  4:40 Item: 2 ammo_bullets
+  4:40 Item: 2 item_armor_combat
+  4:40 Kill: 3 1 10: jayjay killed Nikitossh by MOD_RAILGUN
+  4:40 Item: 0 ammo_shells
+  4:40 Item: 0 weapon_shotgun
+  4:40 Item: 0 ammo_bullets
+  4:40 Item: 0 ammo_bullets
+  4:41 Item: 3 weapon_railgun
+  4:42 Item: 1 ammo_shells
+  4:42 Item: 1 weapon_shotgun
+  4:42 Item: 1 ammo_bullets
+  4:42 Item: 1 ammo_bullets
+  4:45 Item: 1 weapon_railgun
+  4:47 Kill: 0 2 1: DOCKER killed Zani by MOD_SHOTGUN
+  4:47 Item: 0 weapon_shotgun
+  4:49 Item: 2 ammo_shells
+  4:49 Item: 2 weapon_shotgun
+  4:49 Item: 2 ammo_bullets
+  4:49 Item: 2 ammo_bullets
+  4:51 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+  4:52 Item: 3 weapon_railgun
+  4:52 Item: 2 item_armor_combat
+  4:53 Item: 1 ammo_shells
+  4:53 Item: 1 weapon_shotgun
+  4:53 Item: 1 ammo_bullets
+  4:53 Item: 1 ammo_bullets
+  4:55 Item: 0 weapon_rocketlauncher
+  5:01 Item: 3 weapon_railgun
+  5:02 Item: 2 item_armor_combat
+  5:03 Item: 0 weapon_rocketlauncher
+  5:04 Item: 3 weapon_railgun
+  5:05 Item: 1 item_armor_combat
+  5:06 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  5:07 Item: 3 weapon_railgun
+  5:08 Item: 0 ammo_shells
+  5:08 Item: 0 weapon_shotgun
+  5:08 Item: 0 ammo_bullets
+  5:08 Item: 0 ammo_bullets
+  5:09 Item: 2 item_health_large
+  5:12 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  5:15 Item: 0 ammo_shells
+  5:15 Item: 0 weapon_shotgun
+  5:15 Item: 0 ammo_bullets
+  5:15 Item: 0 ammo_bullets
+  5:16 Item: 0 weapon_rocketlauncher
+  5:17 Item: 3 weapon_railgun
+  5:18 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  5:18 Item: 0 weapon_rocketlauncher
+  5:22 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  5:23 Item: 3 weapon_railgun
+  5:24 Item: 0 ammo_shells
+  5:24 Item: 0 weapon_shotgun
+  5:24 Item: 0 ammo_bullets
+  5:24 Item: 0 ammo_bullets
+  5:24 Item: 2 ammo_shells
+  5:24 Item: 2 weapon_shotgun
+  5:24 Item: 2 ammo_bullets
+  5:24 Item: 2 ammo_bullets
+  5:27 Item: 3 weapon_railgun
+  5:27 Kill: 1 3 3: Nikitossh killed jayjay by MOD_MACHINEGUN
+  5:30 Item: 3 ammo_shells
+  5:30 Item: 3 weapon_shotgun
+  5:30 Item: 3 ammo_bullets
+  5:30 Item: 3 ammo_bullets
+  5:30 Item: 2 item_armor_combat
+  5:32 Item: 2 item_health_mega
+  5:33 Item: 1 item_health_large
+  5:35 Item: 2 weapon_railgun
+  5:36 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  5:36 Item: 3 weapon_rocketlauncher
+  5:37 Item: 1 item_armor_combat
+  5:37 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  5:38 Item: 0 ammo_shells
+  5:38 Item: 0 weapon_shotgun
+  5:38 Item: 0 ammo_bullets
+  5:38 Item: 0 ammo_bullets
+  5:39 Item: 0 item_armor_combat
+  5:39 Item: 0 weapon_rocketlauncher
+  5:39 Item: 2 ammo_shells
+  5:39 Item: 2 weapon_shotgun
+  5:39 Item: 2 ammo_bullets
+  5:39 Item: 2 ammo_bullets
+  5:40 Item: 3 weapon_rocketlauncher
+  5:41 Item: 1 item_health_large
+  5:43 Item: 1 weapon_rocketlauncher
+  5:45 Item: 2 weapon_rocketlauncher
+  5:47 Item: 2 weapon_rocketlauncher
+  5:48 Item: 3 weapon_railgun
+  5:54 Item: 0 weapon_rocketlauncher
+  5:54 Item: 1 weapon_railgun
+  5:55 Kill: 3 1 10: jayjay killed Nikitossh by MOD_RAILGUN
+  5:55 Item: 3 weapon_railgun
+  5:55 Kill: 0 3 6: DOCKER killed jayjay by MOD_ROCKET
+  5:55 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  5:56 Item: 1 ammo_shells
+  5:56 Item: 1 weapon_shotgun
+  5:56 Item: 1 ammo_bullets
+  5:56 Item: 1 ammo_bullets
+  5:57 Item: 2 ammo_shells
+  5:57 Item: 2 weapon_shotgun
+  5:57 Item: 2 ammo_bullets
+  5:57 Item: 2 ammo_bullets
+  5:59 Item: 3 ammo_shells
+  5:59 Item: 3 weapon_shotgun
+  5:59 Item: 3 ammo_bullets
+  5:59 Item: 3 ammo_bullets
+  6:00 Item: 2 item_armor_combat
+  6:02 Kill: 3 0 1: jayjay killed DOCKER by MOD_SHOTGUN
+  6:03 Item: 1 weapon_rocketlauncher
+  6:04 Item: 1 item_armor_combat
+  6:04 Item: 1 weapon_rocketlauncher
+  6:04 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+  6:05 Item: 0 ammo_shells
+  6:05 Item: 0 weapon_shotgun
+  6:05 Item: 0 ammo_bullets
+  6:05 Item: 0 ammo_bullets
+  6:06 Item: 1 weapon_rocketlauncher
+  6:08 Item: 3 ammo_shells
+  6:08 Item: 3 weapon_shotgun
+  6:08 Item: 3 ammo_bullets
+  6:08 Item: 3 ammo_bullets
+  6:08 Item: 2 item_armor_combat
+  6:10 Item: 1 weapon_rocketlauncher
+  6:10 Item: 0 weapon_rocketlauncher
+  6:10 Item: 2 item_health_mega
+  6:11 Item: 3 item_armor_combat
+  6:17 Item: 1 weapon_rocketlauncher
+  6:19 Item: 1 weapon_rocketlauncher
+  6:23 Item: 0 weapon_railgun
+  6:24 Item: 3 weapon_rocketlauncher
+  6:27 Kill: 2 1 1: Zani killed Nikitossh by MOD_SHOTGUN
+  6:28 Item: 2 weapon_rocketlauncher
+  6:28 Item: 0 weapon_railgun
+  6:29 Item: 1 ammo_shells
+  6:29 Item: 1 weapon_shotgun
+  6:29 Item: 1 ammo_bullets
+  6:29 Item: 1 ammo_bullets
+  6:29 Item: 3 weapon_railgun
+  6:30 Item: 1 weapon_rocketlauncher
+  6:32 Kill: 3 0 10: jayjay killed DOCKER by MOD_RAILGUN
+  6:33 Item: 2 weapon_railgun
+  6:34 Item: 2 weapon_rocketlauncher
+  6:34 Item: 1 weapon_rocketlauncher
+  6:34 Item: 1 item_armor_combat
+  6:35 Item: 0 ammo_shells
+  6:35 Item: 0 weapon_shotgun
+  6:35 Item: 0 ammo_bullets
+  6:35 Item: 0 ammo_bullets
+  6:36 Item: 0 item_armor_combat
+  6:36 Item: 0 weapon_rocketlauncher
+  6:36 Item: 3 weapon_railgun
+  6:38 Kill: 2 1 10: Zani killed Nikitossh by MOD_RAILGUN
+  6:38 Item: 0 weapon_rocketlauncher
+  6:39 Item: 1 ammo_shells
+  6:39 Item: 1 weapon_shotgun
+  6:39 Item: 1 ammo_bullets
+  6:39 Item: 1 ammo_bullets
+  6:42 Item: 3 weapon_railgun
+  6:43 Item: 0 weapon_rocketlauncher
+  6:43 Item: 1 item_armor_combat
+  6:46 Item: 3 weapon_railgun
+  6:48 Item: 3 weapon_railgun
+  6:49 Item: 0 weapon_rocketlauncher
+  6:50 Item: 2 weapon_rocketlauncher
+  6:50 Item: 3 weapon_railgun
+  6:51 Item: 0 item_health_mega
+  6:57 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  6:57 Item: 3 weapon_rocketlauncher
+  6:59 Item: 3 item_health_large
+  7:00 Item: 0 ammo_shells
+  7:00 Item: 0 weapon_shotgun
+  7:00 Item: 0 ammo_bullets
+  7:00 Item: 0 ammo_bullets
+  7:01 Item: 3 weapon_rocketlauncher
+  7:02 Item: 3 item_health_large
+  7:04 Item: 3 weapon_rocketlauncher
+  7:06 Kill: 1 2 1: Nikitossh killed Zani by MOD_SHOTGUN
+  7:06 Item: 0 weapon_rocketlauncher
+  7:07 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+  7:08 Item: 2 ammo_shells
+  7:08 Item: 2 weapon_shotgun
+  7:08 Item: 2 ammo_bullets
+  7:08 Item: 2 ammo_bullets
+  7:08 Item: 1 weapon_rocketlauncher
+  7:10 Item: 3 ammo_shells
+  7:10 Item: 3 weapon_shotgun
+  7:10 Item: 3 ammo_bullets
+  7:10 Item: 3 ammo_bullets
+  7:11 Item: 3 item_armor_combat
+  7:11 Item: 3 weapon_rocketlauncher
+  7:13 Item: 1 item_armor_combat
+  7:15 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  7:15 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+  7:16 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  7:17 Item: 2 ammo_shells
+  7:17 Item: 2 weapon_shotgun
+  7:17 Item: 2 ammo_bullets
+  7:17 Item: 2 ammo_bullets
+  7:17 Item: 1 item_health_large
+  7:18 Item: 0 ammo_shells
+  7:18 Item: 0 weapon_shotgun
+  7:18 Item: 0 ammo_bullets
+  7:18 Item: 0 ammo_bullets
+  7:19 Item: 3 ammo_shells
+  7:19 Item: 3 weapon_shotgun
+  7:19 Item: 3 ammo_bullets
+  7:19 Item: 3 ammo_bullets
+  7:26 Item: 2 weapon_rocketlauncher
+  7:26 Item: 2 item_armor_combat
+  7:28 Item: 1 weapon_railgun
+  7:30 Item: 3 weapon_rocketlauncher
+  7:30 Kill: 1 3 10: Nikitossh killed jayjay by MOD_RAILGUN
+  7:30 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  7:33 Item: 3 ammo_shells
+  7:33 Item: 3 weapon_shotgun
+  7:33 Item: 3 ammo_bullets
+  7:33 Item: 3 ammo_bullets
+  7:33 Item: 3 item_armor_combat
+  7:34 Kill: 1 0 10: Nikitossh killed DOCKER by MOD_RAILGUN
+  7:34 Item: 2 ammo_shells
+  7:34 Item: 2 weapon_shotgun
+  7:34 Item: 2 ammo_bullets
+  7:34 Item: 2 ammo_bullets
+  7:35 Item: 1 weapon_railgun
+  7:36 Item: 0 ammo_shells
+  7:36 Item: 0 weapon_shotgun
+  7:36 Item: 0 ammo_bullets
+  7:36 Item: 0 ammo_bullets
+  7:39 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+  7:41 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  7:42 Item: 1 weapon_railgun
+  7:43 Item: 2 item_armor_combat
+  7:44 Item: 1 weapon_railgun
+  7:44 Item: 2 weapon_rocketlauncher
+  7:44 Item: 0 ammo_shells
+  7:44 Item: 0 weapon_shotgun
+  7:44 Item: 0 ammo_bullets
+  7:44 Item: 0 ammo_bullets
+  7:45 Item: 2 item_health_mega
+  7:46 Item: 1 weapon_railgun
+  7:49 Item: 2 weapon_railgun
+  7:52 Item: 1 weapon_railgun
+  7:54 Item: 1 weapon_railgun
+  7:55 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+  7:56 Kill: 2 1 10: Zani killed Nikitossh by MOD_RAILGUN
+  7:58 Item: 1 ammo_shells
+  7:58 Item: 1 weapon_shotgun
+  7:58 Item: 1 ammo_bullets
+  7:58 Item: 1 ammo_bullets
+  7:58 Item: 0 ammo_shells
+  7:58 Item: 0 weapon_shotgun
+  7:58 Item: 0 ammo_bullets
+  7:58 Item: 0 ammo_bullets
+  7:59 Item: 1 weapon_rocketlauncher
+  7:59 Item: 3 ammo_shells
+  7:59 Item: 3 weapon_shotgun
+  7:59 Item: 3 ammo_bullets
+  7:59 Item: 3 ammo_bullets
+  8:05 Item: 2 weapon_rocketlauncher
+  8:06 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+  8:08 Item: 1 ammo_shells
+  8:08 Item: 1 weapon_shotgun
+  8:08 Item: 1 ammo_bullets
+  8:08 Item: 1 ammo_bullets
+  8:08 Item: 1 weapon_rocketlauncher
+  8:08 Item: 1 item_armor_combat
+  8:10 Item: 2 weapon_railgun
+  8:10 Item: 2 weapon_railgun
+  8:10 Item: 1 weapon_rocketlauncher
+  8:11 Item: 3 item_armor_combat
+  8:11 Item: 3 weapon_rocketlauncher
+  8:12 Item: 1 weapon_rocketlauncher
+  8:14 Item: 0 weapon_railgun
+  8:16 Item: 2 weapon_railgun
+  8:16 Kill: 3 0 1: jayjay killed DOCKER by MOD_SHOTGUN
+  8:17 Item: 3 weapon_railgun
+  8:18 Item: 3 weapon_railgun
+  8:18 Item: 0 ammo_shells
+  8:18 Item: 0 weapon_shotgun
+  8:18 Item: 0 ammo_bullets
+  8:18 Item: 0 ammo_bullets
+  8:19 Item: 1 weapon_rocketlauncher
+  8:20 Item: 0 weapon_rocketlauncher
+  8:20 Item: 2 weapon_railgun
+  8:22 Item: 2 weapon_railgun
+  8:22 Kill: 2 1 10: Zani killed Nikitossh by MOD_RAILGUN
+  8:23 Item: 0 weapon_rocketlauncher
+  8:24 Item: 1 ammo_shells
+  8:24 Item: 1 weapon_shotgun
+  8:24 Item: 1 ammo_bullets
+  8:24 Item: 1 ammo_bullets
+  8:26 Item: 1 weapon_rocketlauncher
+  8:28 Kill: 0 3 6: DOCKER killed jayjay by MOD_ROCKET
+  8:28 Kill: 1 0 6: Nikitossh killed DOCKER by MOD_ROCKET
+  8:28 Kill: 1 1 7: Nikitossh killed Nikitossh by MOD_ROCKET_SPLASH
+  8:29 Item: 2 weapon_railgun
+  8:30 Item: 1 ammo_shells
+  8:30 Item: 1 weapon_shotgun
+  8:30 Item: 1 ammo_bullets
+  8:30 Item: 1 ammo_bullets
+  8:31 Item: 2 weapon_railgun
+  8:31 Item: 0 ammo_shells
+  8:31 Item: 0 weapon_shotgun
+  8:31 Item: 0 ammo_bullets
+  8:31 Item: 0 ammo_bullets
+  8:34 Item: 0 item_armor_combat
+  8:38 Item: 1 item_health_mega
+  8:40 Item: 0 weapon_rocketlauncher
+  8:43 Item: 3 ammo_shells
+  8:43 Item: 3 weapon_shotgun
+  8:43 Item: 3 ammo_bullets
+  8:43 Item: 3 ammo_bullets
+  8:44 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+  8:46 Item: 1 ammo_shells
+  8:46 Item: 1 weapon_shotgun
+  8:46 Item: 1 ammo_bullets
+  8:46 Item: 1 ammo_bullets
+  8:47 Item: 3 item_armor_combat
+  8:47 Item: 3 weapon_rocketlauncher
+  8:52 Kill: 3 1 6: jayjay killed Nikitossh by MOD_ROCKET
+  8:53 Item: 2 weapon_railgun
+  8:54 Item: 1 ammo_shells
+  8:54 Item: 1 weapon_shotgun
+  8:54 Item: 1 ammo_bullets
+  8:54 Item: 1 ammo_bullets
+  8:55 Item: 1 weapon_rocketlauncher
+  8:57 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+  8:57 Item: 3 weapon_rocketlauncher
+  9:00 Item: 3 weapon_rocketlauncher
+  9:01 Item: 3 item_health_large
+  9:01 Item: 1 weapon_rocketlauncher
+  9:04 Item: 0 weapon_railgun
+  9:07 Item: 1 weapon_rocketlauncher
+  9:09 Kill: 3 1 7: jayjay killed Nikitossh by MOD_ROCKET_SPLASH
+  9:11 Item: 3 weapon_rocketlauncher
+  9:11 Item: 1 ammo_shells
+  9:11 Item: 1 weapon_shotgun
+  9:11 Item: 1 ammo_bullets
+  9:11 Item: 1 ammo_bullets
+  9:12 Item: 0 weapon_railgun
+  9:12 Kill: 1022 3 19: <world> killed jayjay by MOD_FALLING
+  9:16 Item: 3 ammo_shells
+  9:16 Item: 3 weapon_shotgun
+  9:16 Item: 3 ammo_bullets
+  9:16 Item: 3 ammo_bullets
+  9:20 Item: 1 item_health_mega
+  9:21 Item: 1 weapon_rocketlauncher
+  9:21 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+  9:23 Item: 3 ammo_shells
+  9:23 Item: 3 weapon_shotgun
+  9:23 Item: 3 ammo_bullets
+  9:23 Item: 3 ammo_bullets
+  9:23 Item: 3 item_armor_combat
+  9:24 Item: 1 weapon_railgun
+  9:25 Kill: 1 0 10: Nikitossh killed DOCKER by MOD_RAILGUN
+  9:27 Item: 1 weapon_railgun
+  9:27 Item: 0 ammo_shells
+  9:27 Item: 0 weapon_shotgun
+  9:27 Item: 0 ammo_bullets
+  9:27 Item: 0 ammo_bullets
+  9:29 Item: 1 weapon_railgun
+  9:31 Item: 0 weapon_railgun
+  9:32 Item: 3 item_armor_combat
+  9:32 Item: 3 weapon_rocketlauncher
+  9:37 Item: 3 weapon_railgun
+  9:39 Item: 2 ammo_shells
+  9:39 Item: 2 weapon_shotgun
+  9:39 Item: 2 ammo_bullets
+  9:39 Item: 2 ammo_bullets
+  9:45 Item: 3 item_health_large
+  9:46 Item: 1 weapon_railgun
+  9:47 Kill: 1022 0 19: <world> killed DOCKER by MOD_FALLING
+  9:49 Item: 3 item_armor_combat
+  9:51 Item: 2 weapon_bfg
+  9:53 Kill: 1 2 10: Nikitossh killed Zani by MOD_RAILGUN
+  9:54 Item: 0 ammo_shells
+  9:54 Item: 0 weapon_shotgun
+  9:54 Item: 0 ammo_bullets
+  9:54 Item: 0 ammo_bullets
+  9:55 Item: 3 weapon_railgun
+  9:56 Item: 2 ammo_shells
+  9:56 Item: 2 weapon_shotgun
+  9:56 Item: 2 ammo_bullets
+  9:56 Item: 2 ammo_bullets
+  9:57 Item: 3 item_health_large
+ 10:01 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+ 10:03 Item: 3 item_armor_combat
+ 10:05 Item: 2 weapon_bfg
+ 10:05 Item: 0 ammo_shells
+ 10:05 Item: 0 weapon_shotgun
+ 10:05 Item: 0 ammo_bullets
+ 10:05 Item: 0 ammo_bullets
+ 10:06 Item: 2 weapon_bfg
+ 10:11 Item: 1 weapon_railgun
+ 10:12 Item: 2 weapon_rocketlauncher
+ 10:12 Item: 0 weapon_rocketlauncher
+ 10:16 Item: 2 weapon_rocketlauncher
+ 10:16 Item: 2 item_armor_combat
+ 10:17 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+ 10:19 Item: 1 item_health_large
+ 10:19 Item: 3 ammo_shells
+ 10:19 Item: 3 weapon_shotgun
+ 10:19 Item: 3 ammo_bullets
+ 10:19 Item: 3 ammo_bullets
+ 10:19 Item: 3 item_armor_combat
+ 10:21 Item: 1 weapon_rocketlauncher
+ 10:21 Item: 0 weapon_bfg
+ 10:23 Kill: 1022 2 22: <world> killed Zani by MOD_TRIGGER_HURT
+ 10:25 Item: 2 ammo_shells
+ 10:25 Item: 2 weapon_shotgun
+ 10:25 Item: 2 ammo_bullets
+ 10:25 Item: 2 ammo_bullets
+ 10:27 Item: 3 item_health_large
+ 10:30 Item: 1 weapon_rocketlauncher
+ 10:30 Item: 3 item_armor_combat
+ 10:30 Item: 3 weapon_rocketlauncher
+ 10:30 Item: 1 item_health_mega
+ 10:35 Item: 3 weapon_railgun
+ 10:38 Kill: 3 2 10: jayjay killed Zani by MOD_RAILGUN
+ 10:40 Item: 2 ammo_shells
+ 10:40 Item: 2 weapon_shotgun
+ 10:40 Item: 2 ammo_bullets
+ 10:40 Item: 2 ammo_bullets
+ 10:40 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 10:40 Item: 3 weapon_shotgun
+ 10:42 Item: 1 ammo_shells
+ 10:42 Item: 1 weapon_shotgun
+ 10:42 Item: 1 ammo_bullets
+ 10:42 Item: 1 ammo_bullets
+ 10:44 Item: 3 weapon_railgun
+ 10:46 Kill: 3 0 10: jayjay killed DOCKER by MOD_RAILGUN
+ 10:48 Item: 2 weapon_rocketlauncher
+ 10:48 Item: 0 ammo_shells
+ 10:48 Item: 0 weapon_shotgun
+ 10:48 Item: 0 ammo_bullets
+ 10:48 Item: 0 ammo_bullets
+ 10:50 Item: 1 weapon_rocketlauncher
+ 10:54 Item: 2 weapon_railgun
+ 10:55 Item: 0 weapon_rocketlauncher
+ 10:55 Item: 1 item_armor_combat
+ 10:56 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+ 10:56 Item: 1 weapon_rocketlauncher
+ 10:56 Item: 2 weapon_railgun
+ 10:57 Item: 3 ammo_shells
+ 10:57 Item: 3 weapon_shotgun
+ 10:57 Item: 3 ammo_bullets
+ 10:57 Item: 3 ammo_bullets
+ 10:59 Item: 2 weapon_railgun
+ 11:02 Item: 1 weapon_rocketlauncher
+ 11:02 Kill: 3 1 1: jayjay killed Nikitossh by MOD_SHOTGUN
+ 11:02 Item: 2 weapon_railgun
+ 11:03 Item: 0 weapon_bfg
+ 11:04 Item: 1 ammo_shells
+ 11:04 Item: 1 weapon_shotgun
+ 11:04 Item: 1 ammo_bullets
+ 11:04 Item: 1 ammo_bullets
+ 11:04 Item: 2 weapon_railgun
+ 11:05 Item: 1 item_armor_combat
+ 11:06 Item: 2 weapon_railgun
+ 11:09 Kill: 0 2 12: DOCKER killed Zani by MOD_BFG
+ 11:09 Item: 0 weapon_bfg
+ 11:11 Item: 2 ammo_shells
+ 11:11 Item: 2 weapon_shotgun
+ 11:11 Item: 2 ammo_bullets
+ 11:11 Item: 2 ammo_bullets
+ 11:14 Kill: 1022 3 19: <world> killed jayjay by MOD_FALLING
+ 11:16 Item: 3 ammo_shells
+ 11:16 Item: 3 weapon_shotgun
+ 11:16 Item: 3 ammo_bullets
+ 11:16 Item: 3 ammo_bullets
+ 11:17 Item: 2 weapon_rocketlauncher
+ 11:17 Item: 2 weapon_rocketlauncher
+ 11:17 Item: 1 item_armor_combat
+ 11:19 Item: 2 weapon_shotgun
+ 11:19 Item: 2 item_health_mega
+ 11:21 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 11:21 Item: 0 weapon_bfg
+ 11:23 Item: 2 weapon_railgun
+ 11:23 Item: 1 ammo_shells
+ 11:23 Item: 1 weapon_shotgun
+ 11:23 Item: 1 ammo_bullets
+ 11:23 Item: 1 ammo_bullets
+ 11:23 Item: 3 weapon_rocketlauncher
+ 11:23 Item: 3 item_armor_combat
+ 11:24 Item: 0 weapon_bfg
+ 11:25 Kill: 2 0 10: Zani killed DOCKER by MOD_RAILGUN
+ 11:26 Item: 2 weapon_railgun
+ 11:27 Item: 0 ammo_shells
+ 11:27 Item: 0 weapon_shotgun
+ 11:27 Item: 0 ammo_bullets
+ 11:27 Item: 0 ammo_bullets
+ 11:28 Item: 2 weapon_railgun
+ 11:28 Item: 3 weapon_railgun
+ 11:28 Item: 3 weapon_railgun
+ 11:37 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 11:37 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+ 11:39 Item: 0 ammo_shells
+ 11:39 Item: 0 weapon_shotgun
+ 11:39 Item: 0 ammo_bullets
+ 11:39 Item: 0 ammo_bullets
+ 11:39 Item: 1 ammo_shells
+ 11:39 Item: 1 weapon_shotgun
+ 11:39 Item: 1 ammo_bullets
+ 11:39 Item: 1 ammo_bullets
+ 11:43 Kill: 1 0 1: Nikitossh killed DOCKER by MOD_SHOTGUN
+ 11:45 Kill: 2 3 10: Zani killed jayjay by MOD_RAILGUN
+ 11:45 Item: 0 ammo_shells
+ 11:45 Item: 0 weapon_shotgun
+ 11:45 Item: 0 ammo_bullets
+ 11:45 Item: 0 ammo_bullets
+ 11:46 Item: 1 item_armor_combat
+ 11:47 Item: 2 weapon_railgun
+ 11:47 Item: 3 ammo_shells
+ 11:47 Item: 3 weapon_shotgun
+ 11:47 Item: 3 ammo_bullets
+ 11:47 Item: 3 ammo_bullets
+ 11:49 Item: 2 weapon_railgun
+ 11:50 Item: 0 weapon_rocketlauncher
+ 11:50 Kill: 2 0 10: Zani killed DOCKER by MOD_RAILGUN
+ 11:51 Item: 2 weapon_railgun
+ 11:52 Item: 0 ammo_shells
+ 11:52 Item: 0 weapon_shotgun
+ 11:52 Item: 0 ammo_bullets
+ 11:52 Item: 0 ammo_bullets
+ 11:54 Item: 3 item_armor_combat
+ 11:56 Item: 0 weapon_rocketlauncher
+ 11:56 Item: 3 item_health_mega
+ 11:56 Item: 2 weapon_railgun
+ 11:57 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 11:58 Item: 1 ammo_shells
+ 11:58 Item: 1 weapon_shotgun
+ 11:58 Item: 1 ammo_bullets
+ 11:58 Item: 1 ammo_bullets
+ 11:58 Item: 2 weapon_railgun
+ 12:00 Item: 2 weapon_railgun
+ 12:01 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+ 12:02 Item: 2 weapon_railgun
+ 12:03 Kill: 2 0 10: Zani killed DOCKER by MOD_RAILGUN
+ 12:04 Item: 3 ammo_shells
+ 12:04 Item: 3 weapon_shotgun
+ 12:04 Item: 3 ammo_bullets
+ 12:04 Item: 3 ammo_bullets
+ 12:04 Item: 2 weapon_railgun
+ 12:05 Item: 0 ammo_shells
+ 12:05 Item: 0 weapon_shotgun
+ 12:05 Item: 0 ammo_bullets
+ 12:05 Item: 0 ammo_bullets
+ 12:06 Item: 2 weapon_railgun
+ 12:09 Item: 3 weapon_rocketlauncher
+ 12:11 Item: 3 weapon_rocketlauncher
+ 12:13 Item: 1 weapon_rocketlauncher
+ 12:15 Item: 2 weapon_railgun
+ 12:15 Item: 3 weapon_railgun
+ 12:18 Item: 1 weapon_rocketlauncher
+ 12:18 Kill: 3 2 10: jayjay killed Zani by MOD_RAILGUN
+ 12:19 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+ 12:19 Item: 2 ammo_shells
+ 12:19 Item: 2 weapon_shotgun
+ 12:19 Item: 2 ammo_bullets
+ 12:19 Item: 2 ammo_bullets
+ 12:21 Item: 0 ammo_shells
+ 12:21 Item: 0 weapon_shotgun
+ 12:21 Item: 0 ammo_bullets
+ 12:21 Item: 0 ammo_bullets
+ 12:21 Kill: 3 1 10: jayjay killed Nikitossh by MOD_RAILGUN
+ 12:22 Item: 2 weapon_railgun
+ 12:23 Item: 0 weapon_rocketlauncher
+ 12:23 Item: 0 item_armor_combat
+ 12:23 Item: 0 weapon_rocketlauncher
+ 12:23 Item: 1 ammo_shells
+ 12:23 Item: 1 weapon_shotgun
+ 12:23 Item: 1 ammo_bullets
+ 12:23 Item: 1 ammo_bullets
+ 12:26 Item: 2 weapon_railgun
+ 12:28 Item: 0 weapon_railgun
+ 12:28 Item: 0 weapon_railgun
+ 12:28 Kill: 2 3 1: Zani killed jayjay by MOD_SHOTGUN
+ 12:28 Item: 1 weapon_rocketlauncher
+ 12:32 Item: 3 ammo_shells
+ 12:32 Item: 3 weapon_shotgun
+ 12:32 Item: 3 ammo_bullets
+ 12:32 Item: 3 ammo_bullets
+ 12:37 Item: 0 weapon_railgun
+ 12:39 Item: 1 item_health_large
+ 12:39 Item: 3 weapon_rocketlauncher
+ 12:41 Item: 3 item_health_mega
+ 12:41 Item: 2 weapon_railgun
+ 12:44 Item: 3 weapon_railgun
+ 12:44 Kill: 3 2 6: jayjay killed Zani by MOD_ROCKET
+ 12:46 Item: 2 ammo_shells
+ 12:46 Item: 2 weapon_shotgun
+ 12:46 Item: 2 ammo_bullets
+ 12:46 Item: 2 ammo_bullets
+ 12:48 Kill: 1 0 7: Nikitossh killed DOCKER by MOD_ROCKET_SPLASH
+ 12:48 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 12:49 Item: 2 weapon_railgun
+ 12:50 Item: 3 item_armor_combat
+ 12:50 Item: 2 weapon_railgun
+ 12:50 Item: 0 ammo_shells
+ 12:50 Item: 0 weapon_shotgun
+ 12:50 Item: 0 ammo_bullets
+ 12:50 Item: 0 ammo_bullets
+ 12:50 Item: 1 ammo_shells
+ 12:50 Item: 1 weapon_shotgun
+ 12:50 Item: 1 ammo_bullets
+ 12:50 Item: 1 ammo_bullets
+ 12:51 Item: 1 weapon_rocketlauncher
+ 12:51 Item: 1 item_armor_combat
+ 12:52 Item: 2 weapon_railgun
+ 12:53 Item: 0 weapon_rocketlauncher
+ 12:54 Item: 1 weapon_rocketlauncher
+ 12:54 Item: 3 item_health_large
+ 12:54 Item: 2 weapon_railgun
+ 12:56 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+ 12:58 Item: 0 ammo_shells
+ 12:58 Item: 0 weapon_shotgun
+ 12:58 Item: 0 ammo_bullets
+ 12:58 Item: 0 ammo_bullets
+ 12:59 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 13:01 Item: 0 weapon_rocketlauncher
+ 13:01 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+ 13:03 Item: 1 ammo_shells
+ 13:03 Item: 1 weapon_shotgun
+ 13:03 Item: 1 ammo_bullets
+ 13:03 Item: 1 ammo_bullets
+ 13:03 Kill: 2 0 10: Zani killed DOCKER by MOD_RAILGUN
+ 13:04 Item: 3 ammo_shells
+ 13:04 Item: 3 weapon_shotgun
+ 13:04 Item: 3 ammo_bullets
+ 13:04 Item: 3 ammo_bullets
+ 13:05 Item: 0 ammo_shells
+ 13:05 Item: 0 weapon_shotgun
+ 13:05 Item: 0 ammo_bullets
+ 13:05 Item: 0 ammo_bullets
+ 13:09 Kill: 0 1 1: DOCKER killed Nikitossh by MOD_SHOTGUN
+ 13:10 Item: 0 weapon_shotgun
+ 13:11 Item: 1 ammo_shells
+ 13:11 Item: 1 weapon_shotgun
+ 13:11 Item: 1 ammo_bullets
+ 13:11 Item: 1 ammo_bullets
+ 13:15 Item: 3 weapon_rocketlauncher
+ 13:17 Item: 3 item_health_mega
+ 13:18 Kill: 2 0 10: Zani killed DOCKER by MOD_RAILGUN
+ 13:18 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 13:20 Item: 0 ammo_shells
+ 13:20 Item: 0 weapon_shotgun
+ 13:20 Item: 0 ammo_bullets
+ 13:20 Item: 0 ammo_bullets
+ 13:20 Item: 3 weapon_railgun
+ 13:20 Item: 1 ammo_shells
+ 13:20 Item: 1 weapon_shotgun
+ 13:20 Item: 1 ammo_bullets
+ 13:20 Item: 1 ammo_bullets
+ 13:22 Item: 1 item_armor_combat
+ 13:22 Item: 1 weapon_rocketlauncher
+ 13:24 Item: 0 weapon_rocketlauncher
+ 13:24 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+ 13:31 Item: 1 weapon_rocketlauncher
+ 13:33 Item: 3 ammo_shells
+ 13:33 Item: 3 weapon_shotgun
+ 13:33 Item: 3 ammo_bullets
+ 13:33 Item: 3 ammo_bullets
+ 13:34 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+ 13:36 Item: 0 ammo_shells
+ 13:36 Item: 0 weapon_shotgun
+ 13:36 Item: 0 ammo_bullets
+ 13:36 Item: 0 ammo_bullets
+ 13:41 Item: 3 weapon_rocketlauncher
+ 13:41 Item: 3 item_armor_combat
+ 13:41 Kill: 2 1 10: Zani killed Nikitossh by MOD_RAILGUN
+ 13:43 Item: 0 weapon_rocketlauncher
+ 13:44 Item: 1 ammo_shells
+ 13:44 Item: 1 weapon_shotgun
+ 13:44 Item: 1 ammo_bullets
+ 13:44 Item: 1 ammo_bullets
+ 13:48 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+ 13:49 Item: 1 item_armor_combat
+ 13:50 Item: 3 ammo_shells
+ 13:50 Item: 3 weapon_shotgun
+ 13:50 Item: 3 ammo_bullets
+ 13:50 Item: 3 ammo_bullets
+ 13:51 Item: 0 weapon_bfg
+ 13:53 Item: 3 weapon_rocketlauncher
+ 13:54 Item: 2 weapon_railgun
+ 13:54 Item: 0 weapon_bfg
+ 13:58 Kill: 2 0 10: Zani killed DOCKER by MOD_RAILGUN
+ 13:58 Item: 1 weapon_bfg
+ 14:00 Kill: 2 1 10: Zani killed Nikitossh by MOD_RAILGUN
+ 14:01 Item: 0 ammo_shells
+ 14:01 Item: 0 weapon_shotgun
+ 14:01 Item: 0 ammo_bullets
+ 14:01 Item: 0 ammo_bullets
+ 14:02 Item: 1 ammo_shells
+ 14:02 Item: 1 weapon_shotgun
+ 14:02 Item: 1 ammo_bullets
+ 14:02 Item: 1 ammo_bullets
+ 14:04 Item: 2 weapon_railgun
+ 14:07 Item: 1 weapon_rocketlauncher
+ 14:09 Kill: 1022 3 22: <world> killed jayjay by MOD_TRIGGER_HURT
+ 14:11 Kill: 1 0 6: Nikitossh killed DOCKER by MOD_ROCKET
+ 14:11 Item: 3 ammo_shells
+ 14:11 Item: 3 weapon_shotgun
+ 14:11 Item: 3 ammo_bullets
+ 14:11 Item: 3 ammo_bullets
+ 14:12 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 14:13 Item: 0 ammo_shells
+ 14:13 Item: 0 weapon_shotgun
+ 14:13 Item: 0 ammo_bullets
+ 14:13 Item: 0 ammo_bullets
+ 14:14 Item: 0 weapon_rocketlauncher
+ 14:14 Item: 3 weapon_rocketlauncher
+ 14:14 Item: 1 ammo_shells
+ 14:14 Item: 1 weapon_shotgun
+ 14:14 Item: 1 ammo_bullets
+ 14:14 Item: 1 ammo_bullets
+ 14:15 Item: 0 item_armor_combat
+ 14:17 Item: 1 weapon_rocketlauncher
+ 14:19 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 14:21 Item: 1 ammo_shells
+ 14:21 Item: 1 weapon_shotgun
+ 14:21 Item: 1 ammo_bullets
+ 14:21 Item: 1 ammo_bullets
+ 14:23 Item: 0 weapon_rocketlauncher
+ 14:25 Item: 0 weapon_rocketlauncher
+ 14:26 Item: 3 item_health_mega
+ 14:28 Kill: 0 2 6: DOCKER killed Zani by MOD_ROCKET
+ 14:30 Item: 0 weapon_rocketlauncher
+ 14:30 Item: 2 ammo_shells
+ 14:30 Item: 2 weapon_shotgun
+ 14:30 Item: 2 ammo_bullets
+ 14:30 Item: 2 ammo_bullets
+ 14:31 Kill: 1022 1 22: <world> killed Nikitossh by MOD_TRIGGER_HURT
+ 14:33 Item: 3 item_health_large
+ 14:35 Item: 2 item_armor_combat
+ 14:35 Item: 2 weapon_rocketlauncher
+ 14:35 Item: 1 ammo_shells
+ 14:35 Item: 1 weapon_shotgun
+ 14:35 Item: 1 ammo_bullets
+ 14:35 Item: 1 ammo_bullets
+ 14:37 Item: 0 weapon_rocketlauncher
+ 14:38 Item: 1 item_armor_combat
+ 14:39 Item: 2 weapon_railgun
+ 14:42 Item: 2 weapon_railgun
+ 14:42 Item: 1 weapon_rocketlauncher
+ 14:46 Item: 2 item_armor_combat
+ 14:50 Item: 3 weapon_railgun
+ 14:51 Item: 0 weapon_railgun
+ 14:52 Kill: 3 0 10: jayjay killed DOCKER by MOD_RAILGUN
+ 14:54 Item: 0 ammo_shells
+ 14:54 Item: 0 weapon_shotgun
+ 14:54 Item: 0 ammo_bullets
+ 14:54 Item: 0 ammo_bullets
+ 14:55 Item: 0 weapon_rocketlauncher
+ 14:58 Item: 1 item_health_large
+ 14:59 Kill: 1022 0 22: <world> killed DOCKER by MOD_TRIGGER_HURT
+ 15:00 Exit: Timelimit hit.
+ 15:00 score: 7  ping: 51  client: 2 Zani
+ 15:00 score: 4  ping: 39  client: 3 jayjay
+ 15:00 score: -1  ping: 41  client: 1 Nikitossh
+ 15:00 score: -13  ping: 40  client: 0 DOCKER
+ 15:00 Item: 1 weapon_rocketlauncher
+ 15:15 ClientDisconnect: 1
+ 15:16 ShutdownGame:
