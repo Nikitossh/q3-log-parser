@@ -2,6 +2,8 @@ package ru.devopsing.quake3.Services;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -52,6 +54,18 @@ public class MatchLogParserService {
     @Inject
     EventRepository eventRepository;
 
+    // Helper method to parse userinfo string into a map
+    private Map<String, String> parseUserInfo(String userInfo) {
+        Map<String, String> result = new LinkedHashMap<>();
+        String[] parts = userInfo.split("\\\\");
+        for (int i = 0; i < parts.length - 1; i += 2) {
+            String key = parts[i];
+            String value = (i + 1 < parts.length) ? parts[i + 1] : "";
+            result.put(key, value);
+        }
+        return result;
+    }
+
     @Transactional
     public void parseLog(BufferedReader reader) {
         Match match = new Match();
@@ -59,12 +73,14 @@ public class MatchLogParserService {
 
         // Patterns to match lines in the log
         Pattern initGamePattern = Pattern.compile("^\\s*(\\d+:\\d+)\\s+InitGame:\\s+(.*)$");
+
         Pattern clientConnectPattern = Pattern.compile("^\\s*(\\d+:\\d+)\\s+ClientConnect:\\s+(\\d+)$");
-        Pattern clientUserInfoChangedPattern = Pattern
-                // .compile("^\\s*(\\d+:\\d+)\\s+ClientUserinfoChanged:\\s+(\\d+)\\s+n\\\\(.*?)\\\\");
-                .compile(
-                        "(\\d+:\\d+) (ClientUserinfoChanged): (\\d+) n\\\\(\\w+)\\\\t\\\\\\d+\\\\model\\\\(\\S+)\\\\.*");
+        // Pattern clientUserInfoChangedPattern = Pattern
+        // .compile(
+        // "(\\d+:\\d+) (ClientUserinfoChanged): (\\d+)
+        // n\\\\(\\w+)\\\\t\\\\\\d+\\\\model\\\\(\\S+)\\\\.*");
         Pattern clientBeginPattern = Pattern.compile("^\\s*(\\d+:\\d+)\\s+ClientBegin:\\s+(\\d+)$");
+
         Pattern itemPattern = Pattern.compile("^\\s*(\\d+:\\d+)\\s+Item:\\s+(\\d+)\\s+(.*)$");
         Pattern killPattern = Pattern.compile(
                 "^\\s*(\\d+:\\d+)\\s+Kill:\\s+(\\d+)\\s+(\\d+)\\s+(\\d+):\\s+(.*)\\s+killed\\s+(.*)\\s+by\\s+(.*)$");
@@ -103,80 +119,71 @@ public class MatchLogParserService {
 
                 // Match ClientConnect
                 // Example log lines:
-                // 0:40 ClientConnect: 7
-                Matcher clientConnectMatcher = clientConnectPattern.matcher(line);
-                if (clientConnectMatcher.matches()) {
-                    Client client = new Client();
-                    clientRepository.persist(client);
-                    client.match = match;
+                // 0:40 (ClientConnect, ClientBegin, ClientDisconnect): 7
+                // group(1) → time (e.g., "12:34")
+                // group(2) → event type (ClientConnect, ClientBegin, ClientDisconnect)
+                // group(3) → client ID
+                // Patterns
+                Pattern clientEventPattern = Pattern.compile(
+                        "^\\s*(\\d+:\\d+)\\s+(ClientConnect|ClientBegin|ClientDisconnect):\\s+(\\d+)$");
 
-                    int clientId = (Integer.parseInt(clientConnectMatcher.group(2)));
-                    
-                    Event event = new Event();
-                    event.type = "ClientConnect";
-                    event.time = clientConnectMatcher.group(1);
-                    event.clientId = clientId;
-                    event.client = client; // Set the associated client
-                    event.data = "Some default or meaningful data"; // Ensure 'data' is not null
-                    
-                    client.history.add(event);
-                    eventRepository.persist(event); // Persist the event
+                Pattern clientUserInfoChangedPattern = Pattern.compile(
+                        "^\\s*(\\d+:\\d+)\\s+(ClientUserinfoChanged):\\s+(\\d+)\\s+(n\\\\.*)$");
 
-                    client.clientId = clientId;
-                    continue;
-                }
+                // Inside your log parsing loop:
+                Matcher clientEventMatcher = clientEventPattern.matcher(line);
+                if (clientEventMatcher.matches()) {
+                    String time = clientEventMatcher.group(1);
+                    String eventType = clientEventMatcher.group(2);
+                    int clientId = Integer.parseInt(clientEventMatcher.group(3));
 
-                // Match ClientBegin
-                // Example log lines:
-                // 0:40 ClientBegin: 7
-                Matcher clientBeginMatcher = clientBeginPattern.matcher(line);
-                if (clientBeginMatcher.matches()) {
-
-
-                    int clientId = Integer.parseInt(clientBeginMatcher.group(2));
                     Client client = clientRepository.findByMatchAndClientId(match.id, clientId);
-                    client.match = match;
-                    
-                    Event event = new Event();
-                    event.type = "ClientBegin";
-                    event.time = clientBeginMatcher.group(1);
-                    event.clientId = clientId;
-                    event.client = client; // Set the associated client
-                    event.data = "Some default or meaningful data"; // Ensure 'data' is not null
-                    
-                    client.history.add(event);
-                    eventRepository.persist(event); // Persist the event
-
-                    continue;
-                }
-
-                // Match ClientUserinfoChanged
-                // 0:10 ClientUserinfoChanged: 0
-                // n\Gorre\t\2\model\visor/gorre\hmodel\visor/gorre\c1\4\c2\5\hc\100\w\0\l\0\skill\
-                // 4.00\tt\0\tl\1
-                Matcher clientUserInfoChangedMatcher = clientUserInfoChangedPattern.matcher(line);
-                if (clientUserInfoChangedMatcher.matches()) {
-
-                    // Extract values
-                    String time = clientUserInfoChangedMatcher.group(1); // e.g., "0:10"
-                    String eventType = clientUserInfoChangedMatcher.group(2); // e.g., "ClientUserinfoChanged"
-                    int clientId = Integer.parseInt(clientUserInfoChangedMatcher.group(3)); // e.g., 0
-                    String name = clientUserInfoChangedMatcher.group(4); // e.g., "Gorre"
-                   
-                    Client client = clientRepository.findByMatchAndClientId(match.id, clientId);
-                    client.name = name;
-                    client.match = match;
+                    if (client == null) {
+                        client = new Client();
+                        client.clientId = clientId;
+                        client.match = match;
+                        clientRepository.persist(client);
+                    }
 
                     Event event = new Event();
-                    event.type = "ClientConnect";
                     event.time = time;
+                    event.type = eventType;
                     event.clientId = clientId;
-                    event.client = client; // Set the associated client
-                    event.data = eventType; // Ensure 'data' is not null
-                    
-                    eventRepository.persist(event); // Persist the event
-                    client.history.add(event);
+                    event.client = client;
 
+                    client.history.add(event);
+                    eventRepository.persist(event);
+                    continue;
+                }
+
+                // Handle ClientUserinfoChanged
+                Matcher clientUserInfoMatcher = clientUserInfoChangedPattern.matcher(line);
+                if (clientUserInfoMatcher.matches()) {
+                    String time = clientUserInfoMatcher.group(1);
+                    String eventType = clientUserInfoMatcher.group(2);
+                    int clientId = Integer.parseInt(clientUserInfoMatcher.group(3));
+                    String userInfo = clientUserInfoMatcher.group(4);
+
+                    Map<String, String> userFields = parseUserInfo(userInfo);
+                    String name = userFields.getOrDefault("n", null);
+
+                    Client client = clientRepository.findByMatchAndClientId(match.id, clientId);
+                    if (client == null) {
+                        client = new Client();
+                        client.clientId = clientId;
+                        client.match = match;
+                        clientRepository.persist(client);
+                    }
+                    client.name = name;
+
+                    Event event = new Event();
+                    event.time = time;
+                    event.type = eventType;
+                    event.clientId = clientId;
+                    event.client = client;
+
+                    client.history.add(event);
+                    eventRepository.persist(event);
                     continue;
                 }
 

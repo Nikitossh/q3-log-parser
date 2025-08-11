@@ -21,9 +21,6 @@ public class Event extends PanacheEntity {
     @Column(nullable = false)
     public String type;
 
-    @Column(nullable = false)
-    public String data;
-
     @ManyToOne
     @JoinColumn(name = "client_id", referencedColumnName = "id", foreignKey = @ForeignKey(name = "fk_event_client"))
     public Client client;
