@@ -9,8 +9,8 @@ import java.util.List;
 @Table(name = "clients")
 public class Client extends PanacheEntity {
 
-    // @Column(nullable = false)
-    // public int clientId;
+    @Column(nullable = false)
+    public int clientId;
 
     @Column(nullable = true)
     public String name;
