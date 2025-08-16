@@ -10,8 +10,5 @@ import jakarta.persistence.Table;
 public class Weapon extends PanacheEntity {
 
     @Column(nullable = false)
-    public Long weaponId;
-
-    @Column(nullable = false)
     public String name;
 }

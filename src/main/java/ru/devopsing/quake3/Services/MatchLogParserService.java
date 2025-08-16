@@ -68,23 +68,24 @@ public class MatchLogParserService {
 
     @Transactional
     public void parseLog(BufferedReader reader) {
-        Match match = new Match();
-        matchRepository.persist(match); // First, we persist a new match
-
-        // Patterns to match lines in the log
+        // Define patterns for parsing the log file
         Pattern initGamePattern = Pattern.compile("^\\s*(\\d+:\\d+)\\s+InitGame:\\s+(.*)$");
-
-        Pattern clientConnectPattern = Pattern.compile("^\\s*(\\d+:\\d+)\\s+ClientConnect:\\s+(\\d+)$");
-        // Pattern clientUserInfoChangedPattern = Pattern
-        // .compile(
-        // "(\\d+:\\d+) (ClientUserinfoChanged): (\\d+)
-        // n\\\\(\\w+)\\\\t\\\\\\d+\\\\model\\\\(\\S+)\\\\.*");
-        Pattern clientBeginPattern = Pattern.compile("^\\s*(\\d+:\\d+)\\s+ClientBegin:\\s+(\\d+)$");
-
         Pattern itemPattern = Pattern.compile("^\\s*(\\d+:\\d+)\\s+Item:\\s+(\\d+)\\s+(.*)$");
         Pattern killPattern = Pattern.compile(
                 "^\\s*(\\d+:\\d+)\\s+Kill:\\s+(\\d+)\\s+(\\d+)\\s+(\\d+):\\s+(.*)\\s+killed\\s+(.*)\\s+by\\s+(.*)$");
 
+        // 0:40 (ClientConnect | ClientBegin | ClientDisconnect): 7
+        Pattern clientEventPattern = Pattern.compile(
+                "^\\s*(\\d+:\\d+)\\s+(ClientConnect|ClientBegin|ClientDisconnect):\\s+(\\d+)$");
+        // 0:40 ClientUserinfoChanged: 7
+        Pattern clientUserInfoChangedPattern = Pattern.compile(
+                "^\\s*(\\d+:\\d+)\\s+(ClientUserinfoChanged):\\s+(\\d+)\\s+(n\\\\.*)$");
+
+
+        // create and persist a new match
+        Match match = new Match();
+        matchRepository.persist(match);
+        
         String line;
         try {
             while ((line = reader.readLine()) != null) {
@@ -116,19 +117,6 @@ public class MatchLogParserService {
                     matchRepository.persist(match);
                     continue;
                 }
-
-                // Match ClientConnect
-                // Example log lines:
-                // 0:40 (ClientConnect, ClientBegin, ClientDisconnect): 7
-                // group(1) → time (e.g., "12:34")
-                // group(2) → event type (ClientConnect, ClientBegin, ClientDisconnect)
-                // group(3) → client ID
-                // Patterns
-                Pattern clientEventPattern = Pattern.compile(
-                        "^\\s*(\\d+:\\d+)\\s+(ClientConnect|ClientBegin|ClientDisconnect):\\s+(\\d+)$");
-
-                Pattern clientUserInfoChangedPattern = Pattern.compile(
-                        "^\\s*(\\d+:\\d+)\\s+(ClientUserinfoChanged):\\s+(\\d+)\\s+(n\\\\.*)$");
 
                 // Inside your log parsing loop:
                 Matcher clientEventMatcher = clientEventPattern.matcher(line);
@@ -196,16 +184,17 @@ public class MatchLogParserService {
                     String itemName = itemMatcher.group(3);
 
                     Client client = clientRepository.findByMatchAndClientId(match.id, clientId);
-                    System.out.println("Client ID: " + client.clientId);
                     if (client != null) {
                         ItemPickup itemPickup = new ItemPickup();
                         itemPickup.time = time;
                         itemPickup.match = match;
                         itemPickup.client = client;
 
-                        Item item = new Item();
-                        item.name = itemName;
-                        itemRepository.persist(item);
+                        Item item = itemRepository.findByName(itemName);
+                        if (item == null) {
+                            throw new IllegalArgumentException("Unknown item: " + itemName);
+                        }
+
                         itemPickup.item = item;
                         itemPickupRepository.persist(itemPickup);
                     }
@@ -225,21 +214,13 @@ public class MatchLogParserService {
                     Client killer = clientRepository.findByMatchAndClientId(match.id, killerId);
                     Client victim = clientRepository.findByMatchAndClientId(match.id, victimId);
 
-                    Weapon weapon = weaponRepository.findById(weaponId);
-                    if (weapon == null) {
-                        Weapon w = new Weapon();
-                        w.name = mod;
-                        w.weaponId = weaponId;
-                        weaponRepository.persist(w);
-                        weapon = w;
-                    }
-
                     if (killer != null && victim != null) {
                         Kill kill = new Kill();
                         kill.time = time;
                         kill.killer = killer;
                         kill.victim = victim;
-                        kill.weapon = weapon;
+                        kill.weapon = weaponRepository.findById(weaponId);
+                        kill.match = match;
                         kill.mod = mod;
                         killRepository.persist(kill);
                     }
